@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Controle de Despesas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Controle de Despesas</h1>
+
+<div class="container">
+  <div class="caixa">
+    <p>RESUMO</p>
+    <p>Soma total</p>
+    <h2 id="total">R$ 0,00</h2>
+    
+    <p>Totais por categoria</p>
+    <p>Alimentos <span>R$ 0,00</span></p>
+    <p>Transporte <span>R$ 0,00</span></p>
+    <p>Lazer <span>R$ 0,00</span></p>
+    <p>Saúde <span>R$ 0,00</span></p>
+    <p>Cartão de Crédito <span>R$ 0,00</span></p>
+    <p>Outros <span>R$ 0,00</span></p>
+  </div>
+
+  <div class="lado-direito">
+    <div class="caixa">
+      <h3>Nova Despesa</h3>
+      <p>Título</p>
+      <input type="text" placeholder="Ex: Mercado do mês">
+      <p>Valor</p>
+      <input type="number" placeholder="Ex: 150,00">
+      <p>Categoria</p>
+      <select>
+        <option>Selecione uma categoria</option>
+        <option>Alimentos</option>
+        <option>Transporte</option>
+        <option>Lazer</option>
+        <option>Saúde</option>
+        <option>Cartão de Crédito</option>
+        <option>Outros</option>
+      </select>
+      <button>Adicionar</button>
+    </div>
+
+    <div class="caixa">
+      <h3>Despesas</h3>
+      <center><p>Nenhuma despesa ainda</p></center>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
